@@ -32,7 +32,7 @@
   "ARGB_encoding_color": false,
   "ARGB_encoding_forced": true,
   "ARGB_encoding_color_count": 255,
-  "Scale": 1.0,
+  "Scale": 0.5,
   "Gif_Speed": 1.0,
   "Animation_Preview_Speed": 4,
   "DrawAllWidgets": false,

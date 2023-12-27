@@ -1,0 +1,767 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "GTR 3 Pro",
+    "WatchFaceId": 1131632,
+    "Preview": "Preview"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "src": "main1"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Bluetooth": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 134,
+          "y": 322,
+          "src": "status_bt",
+          "type": "Bluetooth"
+        }
+      },
+      {
+        "elementName": "DateYear",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 182,
+          "imageY": 172,
+          "space": 0,
+          "zero": true,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "YEAR"
+        }
+      },
+      {
+        "elementName": "ElementSpO2",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 240,
+          "imageY": 400,
+          "space": 0,
+          "zero": false,
+          "img_First": "light_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementPAI",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 319,
+          "imageY": 400,
+          "space": 0,
+          "zero": false,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Images": {
+          "position": 2,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 271,
+          "Y": 172,
+          "img_First": "steps_01",
+          "image_length": 10
+        },
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 313,
+          "imageY": 250,
+          "space": -1,
+          "zero": false,
+          "img_First": "light_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementCalories",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 320,
+          "imageY": 339,
+          "space": 0,
+          "zero": false,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 22,
+          "Y": 265,
+          "img_First": "wd_1",
+          "image_length": 0
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 39,
+          "Y": 177,
+          "img_First": "mons_1",
+          "image_length": 0,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 57,
+          "imageY": 133,
+          "space": 1,
+          "zero": true,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "ElementDistance",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 114,
+          "imageY": 116,
+          "space": 1,
+          "zero": false,
+          "img_First": "dig_11_w_0",
+          "unit": "km",
+          "imperial_unit": "mi",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "dot_image": "dot",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Images": {
+          "position": 3,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 207,
+          "Y": 342,
+          "img_First": "Batt_icon_01",
+          "image_length": 10
+        },
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 133,
+          "imageY": 338,
+          "space": 1,
+          "zero": false,
+          "img_First": "light_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Linear_Scale": {
+          "position": 4,
+          "visible": true,
+          "show_level": "",
+          "start_x": 217,
+          "start_y": 335,
+          "color": "0xFFFF8C00",
+          "pointer": "Batt_arrow",
+          "lenght": 60,
+          "line_width": 0,
+          "line_cap": "Flat",
+          "mirror": false,
+          "inversion": false,
+          "vertical": false
+        },
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 207,
+          "y": 342,
+          "src": "Batt_symbol"
+        }
+      },
+      {
+        "elementName": "ElementWeather",
+        "visible": true,
+        "Images": {
+          "position": 2,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 304,
+          "Y": 49,
+          "img_First": "weatherd_00",
+          "image_length": 29
+        },
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 307,
+          "imageY": 116,
+          "space": 0,
+          "zero": false,
+          "img_First": "dig_11_w_0",
+          "unit": "degr",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "negative_image": "dig_11_w_minus",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementMoon",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 243,
+          "Y": 53,
+          "img_First": "Moon_01",
+          "image_length": 30
+        }
+      },
+      {
+        "elementName": "ElementSunrise",
+        "visible": true,
+        "Sunrise": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 150,
+          "imageY": 45,
+          "space": 0,
+          "zero": false,
+          "img_First": "light_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "dot_image": "light_dots",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Sunset": {
+          "position": 3,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 150,
+          "imageY": 75,
+          "space": 0,
+          "zero": false,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "dot_image": "dark_dots",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 109,
+          "y": 63,
+          "src": "srss"
+        }
+      },
+      {
+        "elementName": "DigitalTime",
+        "visible": true,
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 56,
+          "imageY": 319,
+          "space": 1,
+          "zero": true,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 157,
+          "imageY": 202,
+          "space": 0,
+          "zero": true,
+          "img_First": "dig_21_w_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 35,
+          "imageY": 202,
+          "space": 0,
+          "zero": true,
+          "img_First": "dig_21_w_0",
+          "icon": "dig_21_w_dots",
+          "iconPosX": 136,
+          "iconPosY": 202,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "AmPm": {
+          "position": 4,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "am_x": 258,
+          "am_y": 283,
+          "am_img": "am",
+          "pm_x": 258,
+          "pm_y": 283,
+          "pm_img": "pm"
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "ana_sec1",
+          "center_x": 240,
+          "center_y": 239,
+          "pos_x": 139,
+          "pos_y": 240,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      },
+      {
+        "elementName": "ElementHeart",
+        "visible": true,
+        "Images": {
+          "position": 3,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 104,
+          "Y": 399,
+          "img_First": "Zone1",
+          "image_length": 6
+        },
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 158,
+          "imageY": 400,
+          "space": 0,
+          "zero": false,
+          "img_First": "light_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 91,
+          "y": 385,
+          "src": "Zone_Icon"
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Background": {
+      "visible": true,
+      "BackgroundColor": {
+        "show_level": "ONLY_AOD",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "color": "0xFF000000"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Bluetooth": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_AOD",
+          "x": 302,
+          "y": 204,
+          "src": "status_bt",
+          "type": "Bluetooth"
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_AOD",
+          "X": 108,
+          "Y": 177,
+          "img_First": "mons_1",
+          "image_length": 0,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_AOD",
+          "imageX": 64,
+          "imageY": 172,
+          "space": 1,
+          "zero": true,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Images": {
+          "position": 3,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 275,
+          "Y": 190,
+          "img_First": "aod_Batt_icon_01",
+          "image_length": 10
+        },
+        "Text_rotation": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 300,
+          "imageY": 271,
+          "space": 1,
+          "zero": false,
+          "img_First": "dark_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": -90,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 275,
+          "y": 190,
+          "src": "aod_Batt_symbol"
+        }
+      },
+      {
+        "elementName": "DigitalTime",
+        "visible": true,
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_AOD",
+          "imageX": 157,
+          "imageY": 202,
+          "space": 0,
+          "zero": true,
+          "img_First": "dig_21_w_0",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_AOD",
+          "imageX": 35,
+          "imageY": 202,
+          "space": 0,
+          "zero": true,
+          "img_First": "dig_21_w_0",
+          "icon": "dig_21_w_dots",
+          "iconPosX": 136,
+          "iconPosY": 202,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      }
+    ]
+  },
+  "DisconnectAlert": {
+    "enable": true,
+    "BluetoothOff": {
+      "vibrate": true,
+      "vibrateType": 27,
+      "toastShow": true,
+      "toastText": "Bluetooth OFF"
+    },
+    "BluetoothOn": {
+      "vibrate": true,
+      "vibrateType": 0,
+      "toastShow": true,
+      "toastText": "Bluetooth ON"
+    }
+  },
+  "Shortcuts": {
+    "elementName": "ElementShortcuts",
+    "visible": true,
+    "Step": {
+      "position": 12,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 315,
+      "y": 205,
+      "w": 85,
+      "h": 80,
+      "type": "STEP"
+    },
+    "Heart": {
+      "position": 11,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 155,
+      "y": 370,
+      "w": 70,
+      "h": 70,
+      "type": "HEART"
+    },
+    "SPO2": {
+      "position": 10,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 235,
+      "y": 370,
+      "w": 70,
+      "h": 70,
+      "type": "SPO2"
+    },
+    "PAI": {
+      "position": 9,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 315,
+      "y": 370,
+      "w": 70,
+      "h": 70,
+      "type": "PAI_WEEKLY"
+    },
+    "Stress": {
+      "position": 8,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 315,
+      "y": 320,
+      "w": 80,
+      "h": 50,
+      "type": "STRESS"
+    },
+    "Weather": {
+      "position": 7,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 303,
+      "y": 112,
+      "w": 100,
+      "h": 45,
+      "type": "WEATHER_CURRENT"
+    },
+    "Altimeter": {
+      "position": 6,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 295,
+      "y": 45,
+      "w": 80,
+      "h": 60,
+      "type": "ALTIMETER"
+    },
+    "Sunrise": {
+      "position": 5,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 135,
+      "y": 45,
+      "w": 100,
+      "h": 60,
+      "type": "SUN_CURRENT"
+    },
+    "Alarm": {
+      "position": 4,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 40,
+      "y": 310,
+      "w": 70,
+      "h": 60,
+      "type": "ALARM_CLOCK"
+    },
+    "Sleep": {
+      "position": 3,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 235,
+      "y": 45,
+      "w": 60,
+      "h": 60,
+      "type": "SLEEP"
+    },
+    "Countdown": {
+      "position": 2,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 35,
+      "y": 200,
+      "w": 100,
+      "h": 75,
+      "type": "COUNT_DOWN"
+    },
+    "Stopwatch": {
+      "position": 1,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 155,
+      "y": 200,
+      "w": 100,
+      "h": 75,
+      "type": "STOP_WATCH"
+    }
+  }
+}
