@@ -1,0 +1,866 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "GTR 3 Pro",
+    "WatchFaceId": 7410864,
+    "Preview": "Preview"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "Editable_Background": {
+        "enable_edit_bg": true,
+        "selected_background": 0,
+        "x": 0,
+        "y": 0,
+        "h": 480,
+        "w": 480,
+        "BackgroundList": [
+          {
+            "path": "0000",
+            "preview": "bg_edit_1_preview"
+          },
+          {
+            "path": "0000_aqua",
+            "preview": "bg_edit_2_preview"
+          },
+          {
+            "path": "0000_green",
+            "preview": "bg_edit_3_preview"
+          },
+          {
+            "path": "0000_orange",
+            "preview": "bg_edit_4_preview"
+          },
+          {
+            "path": "0000_purple",
+            "preview": "bg_edit_5_preview"
+          },
+          {
+            "path": "0000_red",
+            "preview": "bg_edit_6_preview"
+          },
+          {
+            "path": "0000_rosegold",
+            "preview": "bg_edit_7_preview"
+          },
+          {
+            "path": "0000_yellow",
+            "preview": "bg_edit_8_preview"
+          }
+        ],
+        "tips_bg": "edit_back",
+        "tips_x": 196,
+        "tips_y": 414,
+        "fg": "",
+        "AOD_show": false,
+        "showEeditMode": false
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Bluetooth": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 366,
+          "y": 193,
+          "src": "0170",
+          "type": "Bluetooth"
+        }
+      },
+      {
+        "elementName": "ElementPAI",
+        "visible": true,
+        "Number_Target": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 330,
+          "imageY": 374,
+          "space": 0,
+          "zero": false,
+          "img_First": "0050",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementHeart",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 122,
+          "imageY": 374,
+          "space": 0,
+          "zero": false,
+          "img_First": "0050",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementCalories",
+        "visible": true,
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 94,
+          "imageY": 227,
+          "space": 3,
+          "zero": false,
+          "img_First": "0171",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Circle_Scale": {
+          "position": 1,
+          "visible": true,
+          "end_angle": 400,
+          "show_level": "",
+          "center_x": 113,
+          "center_y": 263,
+          "start_angle": 316,
+          "color": "0xFF5E0021",
+          "radius": 63,
+          "line_width": 14,
+          "line_cap": "Rounded",
+          "mirror": false,
+          "inversion": false
+        }
+      },
+      {
+        "elementName": "ElementFatBurning",
+        "visible": true,
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 125,
+          "imageY": 267,
+          "space": 0,
+          "zero": false,
+          "img_First": "0171",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Circle_Scale": {
+          "position": 1,
+          "visible": true,
+          "end_angle": 172,
+          "show_level": "",
+          "center_x": 113,
+          "center_y": 263,
+          "start_angle": 65,
+          "color": "0xFF015C46",
+          "radius": 63,
+          "line_width": 14,
+          "line_cap": "Rounded",
+          "mirror": false,
+          "inversion": false
+        }
+      },
+      {
+        "elementName": "ElementStand",
+        "visible": true,
+        "Number": {
+          "position": 3,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 59,
+          "imageY": 267,
+          "space": 0,
+          "zero": false,
+          "img_First": "0171",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Circle_Scale": {
+          "position": 1,
+          "visible": true,
+          "end_angle": 292,
+          "show_level": "",
+          "center_x": 113,
+          "center_y": 263,
+          "start_angle": 191,
+          "color": "0xFF015C5C",
+          "radius": 64,
+          "line_width": 13,
+          "line_cap": "Rounded",
+          "mirror": false,
+          "inversion": false
+        },
+        "Icon": {
+          "position": 2,
+          "visible": true,
+          "show_level": "",
+          "x": 95,
+          "y": 302,
+          "src": "icon_stand_big_BW"
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Images": {
+          "position": 3,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 140,
+          "Y": 214,
+          "img_First": "icon_min_big_BW",
+          "image_length": 1
+        },
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 186,
+          "imageY": 349,
+          "space": 0,
+          "zero": false,
+          "img_First": "0040",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 51,
+          "y": 214,
+          "src": "icon_kcal_big_BW"
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Segments": {
+          "position": 2,
+          "visible": true,
+          "show_level": "",
+          "X": [
+            314,
+            314,
+            314,
+            314,
+            314
+          ],
+          "Y": [
+            247,
+            247,
+            247,
+            247,
+            247
+          ],
+          "img_First": "0165",
+          "image_length": 5
+        },
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 320,
+          "imageY": 271,
+          "space": 0,
+          "zero": false,
+          "img_First": "0050",
+          "icon": "0060",
+          "iconPosX": 356,
+          "iconPosY": 271,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementWeather",
+        "visible": true,
+        "Images": {
+          "position": 2,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 86,
+          "Y": 100,
+          "img_First": "0136",
+          "image_length": 29
+        },
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 90,
+          "imageY": 156,
+          "space": 1,
+          "zero": false,
+          "img_First": "0061",
+          "unit": "0071",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "negative_image": "0072",
+          "invalid_image": "0072",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 156,
+          "Y": 107,
+          "img_First": "0124",
+          "image_length": 0,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 302,
+          "Y": 77,
+          "img_First": "0031",
+          "image_length": 0
+        }
+      },
+      {
+        "elementName": "DateYear",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 188,
+          "imageY": 77,
+          "space": 3,
+          "zero": true,
+          "img_First": "0061",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "YEAR"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 257,
+          "imageY": 77,
+          "space": 0,
+          "zero": true,
+          "img_First": "0021",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "DigitalTime",
+        "visible": true,
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 367,
+          "imageY": 145,
+          "space": 0,
+          "zero": true,
+          "img_First": "0021",
+          "icon": "0039",
+          "iconPosX": 371,
+          "iconPosY": 118,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 275,
+          "imageY": 130,
+          "space": 0,
+          "zero": true,
+          "img_First": "0010",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 176,
+          "imageY": 130,
+          "space": 0,
+          "zero": true,
+          "img_First": "0010",
+          "icon": "0020",
+          "iconPosX": 258,
+          "iconPosY": 130,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0003shadow",
+          "center_x": 240,
+          "center_y": 251,
+          "pos_x": 12,
+          "pos_y": 191,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_path": "0004",
+          "cover_x": 228,
+          "cover_y": 240,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0001shadow",
+          "center_x": 240,
+          "center_y": 251,
+          "pos_x": 22,
+          "pos_y": 212,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0002shadow",
+          "center_x": 240,
+          "center_y": 251,
+          "pos_x": 24,
+          "pos_y": 159,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_AOD",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "src": "0000_aod"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementPAI",
+        "visible": true,
+        "Number_Target": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 330,
+          "imageY": 374,
+          "space": 0,
+          "zero": false,
+          "img_First": "0073",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementHeart",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 122,
+          "imageY": 374,
+          "space": 0,
+          "zero": false,
+          "img_First": "0073",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementCalories",
+        "visible": true,
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 98,
+          "imageY": 230,
+          "space": 3,
+          "zero": false,
+          "img_First": "0114",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Circle_Scale": {
+          "position": 1,
+          "visible": true,
+          "end_angle": 408,
+          "show_level": "",
+          "center_x": 113,
+          "center_y": 263,
+          "start_angle": 307,
+          "color": "0xFF353535",
+          "radius": 63,
+          "line_width": 10,
+          "line_cap": "Rounded",
+          "mirror": false,
+          "inversion": false
+        }
+      },
+      {
+        "elementName": "ElementFatBurning",
+        "visible": true,
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 124,
+          "imageY": 264,
+          "space": 0,
+          "zero": false,
+          "img_First": "0114",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Circle_Scale": {
+          "position": 1,
+          "visible": true,
+          "end_angle": 170,
+          "show_level": "",
+          "center_x": 113,
+          "center_y": 263,
+          "start_angle": 68,
+          "color": "0xFF353535",
+          "radius": 63,
+          "line_width": 10,
+          "line_cap": "Rounded",
+          "mirror": false,
+          "inversion": false
+        }
+      },
+      {
+        "elementName": "ElementStand",
+        "visible": true,
+        "Number": {
+          "position": 3,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 87,
+          "imageY": 264,
+          "space": 0,
+          "zero": false,
+          "img_First": "0114",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Circle_Scale": {
+          "position": 1,
+          "visible": true,
+          "end_angle": 289,
+          "show_level": "",
+          "center_x": 113,
+          "center_y": 263,
+          "start_angle": 187,
+          "color": "0xFF353535",
+          "radius": 63,
+          "line_width": 10,
+          "line_cap": "Rounded",
+          "mirror": false,
+          "inversion": false
+        },
+        "Icon": {
+          "position": 2,
+          "visible": true,
+          "show_level": "",
+          "x": 105,
+          "y": 312,
+          "src": "icon_stand_BW"
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Images": {
+          "position": 3,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 152,
+          "Y": 225,
+          "img_First": "icon_min_BW",
+          "image_length": 1
+        },
+        "Number": {
+          "position": 2,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 186,
+          "imageY": 349,
+          "space": 0,
+          "zero": false,
+          "img_First": "0083",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 52,
+          "y": 225,
+          "src": "icon_kcal_BW"
+        }
+      },
+      {
+        "elementName": "DigitalTime",
+        "visible": true,
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "ONLY_AOD",
+          "imageX": 275,
+          "imageY": 130,
+          "space": 0,
+          "zero": true,
+          "img_First": "0093",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_AOD",
+          "imageX": 176,
+          "imageY": 130,
+          "space": 0,
+          "zero": true,
+          "img_First": "0093",
+          "icon": "0103",
+          "iconPosX": 258,
+          "iconPosY": 130,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_AOD",
+          "src": "0001_aod",
+          "center_x": 240,
+          "center_y": 251,
+          "pos_x": 22,
+          "pos_y": 212,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_path": "0004_aod",
+          "cover_x": 228,
+          "cover_y": 240,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_AOD",
+          "src": "0002_aod",
+          "center_x": 240,
+          "center_y": 251,
+          "pos_x": 24,
+          "pos_y": 159,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "DisconnectAlert": {
+    "enable": true,
+    "BluetoothOff": {
+      "vibrate": true,
+      "vibrateType": 27,
+      "toastShow": true,
+      "toastText": "Phone connection is lost"
+    },
+    "BluetoothOn": {
+      "vibrate": true,
+      "vibrateType": 25,
+      "toastShow": true,
+      "toastText": "Phone connection is successful"
+    }
+  },
+  "Shortcuts": {
+    "elementName": "ElementShortcuts",
+    "visible": true,
+    "Step": {
+      "position": 4,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 63,
+      "y": 214,
+      "w": 100,
+      "h": 100,
+      "src": "shortcut",
+      "type": "STEP"
+    },
+    "PAI": {
+      "position": 3,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 300,
+      "y": 321,
+      "w": 100,
+      "h": 100,
+      "src": "shortcut",
+      "type": "PAI_WEEKLY"
+    },
+    "Weather": {
+      "position": 2,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 50,
+      "y": 100,
+      "w": 100,
+      "h": 100,
+      "src": "shortcut",
+      "type": "WEATHER_CURRENT"
+    },
+    "Countdown": {
+      "position": 1,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 345,
+      "y": 115,
+      "w": 82,
+      "h": 85,
+      "src": "shortcut",
+      "type": "COUNT_DOWN"
+    }
+  }
+}

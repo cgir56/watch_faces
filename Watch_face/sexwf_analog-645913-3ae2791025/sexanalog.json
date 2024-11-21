@@ -1,0 +1,198 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "GTR 3 Pro",
+    "WatchFaceId": 5650341,
+    "Preview": "Preview"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "src": "0001_cleanup"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 102,
+          "Y": 232,
+          "img_First": "0016",
+          "image_length": 10
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 315,
+          "Y": 248,
+          "img_First": "0027",
+          "image_length": 0
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 363,
+          "imageY": 251,
+          "space": 0,
+          "zero": false,
+          "img_First": "0006",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0005",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 32,
+          "pos_y": 168,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0004",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 18,
+          "pos_y": 144,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_path": "",
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale": "",
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0003",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 20,
+          "pos_y": 102,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_path": "",
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale": "",
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Background": {
+      "visible": true,
+      "BackgroundColor": {
+        "show_level": "ONAL_AOD",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "color": "0xFF000000"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "src": "0005",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 32,
+          "pos_y": 168,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "src": "0034",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 18,
+          "pos_y": 26,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "src": "0035",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 20,
+          "pos_y": 26,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  }
+}
